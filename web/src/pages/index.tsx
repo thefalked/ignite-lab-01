@@ -9,6 +9,7 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
   const session = getSession(req, res);
+  console.log(JSON.stringify(session, null, 2));
 
   if (!session) {
     return {
