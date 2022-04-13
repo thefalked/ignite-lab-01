@@ -11,7 +11,7 @@ import { EnrollmentsService } from '../services/enrollments.service';
 import { StudentsService } from '../services/students.service';
 import { DatabaseModule } from './../database/database.module';
 import { CoursesResolver } from './graphql/resolvers/courses.resolver';
-import { EnrollmentsResolver } from './graphql/resolvers/enrollment.resolver';
+import { EnrollmentsResolver } from './graphql/resolvers/enrollments.resolver';
 import { StudentsResolver } from './graphql/resolvers/students.resolver';
 
 @Module({
