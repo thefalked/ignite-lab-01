@@ -1,29 +1,41 @@
-# Ignite Lab 01
+# 🔥 Ignite Lab 01
 
-- NestJS
-- GraphQL
-- Apache Kafka
-- Next.js
-- Apollo Client (GraphQL)
+✔ NestJS
+✔ GraphQL
+✔ Apache Kafka
+✔ Next.js
+✔ Apollo Client (GraphQL)
 
-## Funcionalidades
+This is a selling course project using microservices with GraphQL.
+## 📊 How it Works
 
-### Serviço de compras (purchases)
+![Diagram for the project](/.github/diagram.png)
 
-- [Admin] Cadastro de produtos
-- [Admin] Listagem de produtos
+## 🛠 Functionalities
 
-- [Auth] Listagem de compras
+### 🛒 Shopping service (purchases)
 
-- [Public] Compra de um produto
-- [Public] Lista produtos disponíveis p/ compra
+- `[Admin]` Product registration
+- `[Admin]` Product listing
 
-### Serviço de sala de aula (classroom)
+- `[Auth]` Products list
+- `[Auth]` Purchase a product
 
-- [Admin] Listar matrículas
-- [Admin] Listar alunos
-- [Admin] Listar cursos
-- [Admin] Cadastrar cursos
+- `[Public]` List products available for purchase
 
-- [Auth] Listar cursos que tenho acesso
-- [Auth] Acessar conteúdo do curso
+### 📚 Classroom service (classroom)
+
+- `[Admin]` List enrollments
+- `[Admin]` List students
+- `[Admin]` List courses
+- `[Admin]` Register courses
+
+- `[Auth]` List courses i have access to
+- `[Auth]` Access course content
+
+### NextJS (web)
+
+- `[Auth]` List courses i have access to
+- `[Auth]` Purchase a product
+
+- `[Public]` List products available for purchase
